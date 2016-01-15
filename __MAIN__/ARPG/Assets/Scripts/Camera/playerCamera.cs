@@ -3,8 +3,8 @@ using System.Collections;
 
 public class playerCamera : MonoBehaviour {
 	public float DistanceFromPlayerX = 0.0f;
-	public float DistanceFromPlayerY = 25.0f;
-	public float DistanceFromPlayerZ = 25.0f;
+	public float DistanceFromPlayerY = 15.0f;
+	public float DistanceFromPlayerZ = 15.0f;
 
 	// Use this for initialization
 	void Start () {
