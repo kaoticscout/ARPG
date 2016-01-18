@@ -3,9 +3,12 @@ using System.Collections;
 
 public class Unit_Player : Unit {
 
-	public void ShootRay()
-	{
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+    int lootHash = Animator.StringToHash("Base Layer.Loot");
+    int attackHash = Animator.StringToHash("Base Layer.Attack2h");
+
+    public void ShootRay()
+    {
+        Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit = new RaycastHit();
 
 		//TODO: This is expensive, consider max length
@@ -28,39 +31,42 @@ public class Unit_Player : Unit {
 	// Update is called once per frame
 	public override void Update () {
 
-		//mouse movement
-		if (Input.GetMouseButtonDown (0)) {
+        //mouse movement        
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+        if(stateInfo.fullPathHash == lootHash || stateInfo.fullPathHash == attackHash)
+        {
+            _stopSeeking = true;
+        }
+        else
+        {
+            animator.ResetTrigger("Attacking");
+            animator.ResetTrigger("Looting");
+            _stopSeeking = false;
+        }
+
+        if (Input.GetMouseButtonDown (0) && stateInfo.fullPathHash != attackHash) {
 			ShootRay ();
 		}
-		if (Input.GetMouseButtonDown (1) && _attacking == false) {
-			Debug.Log ("Attack");
-			GetComponent<Animator> ().Play ("Attack2h");
-			_attacking = true;
-		}
 
-		//attack finished
-		if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("CombatReady")) {
-			Debug.Log ("Attack Complete");
-			_attacking = false;
-		}
+        if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.A) && stateInfo.fullPathHash != attackHash)
+        {
+            animator.SetTrigger("Attacking");
+            _stopSeeking = true;
+        }
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            combat = !combat;
+        }
+        if(Input.GetKeyDown(KeyCode.L) && stateInfo.fullPathHash != lootHash)
+        {
+            animator.SetTrigger("Looting");
+            _stopSeeking = true;
+        }
+        
+        animator.SetBool("Combat", combat);
+        animator.SetFloat("Speed", speed);
 
-		base.Update ();
-
-		if (_looting && GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).IsName ("Loot") == false) {
-			GetComponent<Animator> ().Play ("Loot");
-		}
-		// end loot cycle
-		if (_looting && GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).IsName ("Stand")) {
-			_looting = false;
-		}
-
-		// return to idle
-		if (!_attacking && !_looting) {
-			if (move != Vector3.zero) {
-				GetComponent<Animator> ().Play ("Walk");
-			} else {
-				GetComponent<Animator> ().Play ("Stand");	
-			}
-		}
+        base.Update ();
 	}
 }
