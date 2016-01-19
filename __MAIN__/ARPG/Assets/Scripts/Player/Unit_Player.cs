@@ -45,7 +45,7 @@ public class Unit_Player : Unit {
             _stopSeeking = false;
         }
 
-        if (Input.GetMouseButtonDown (0) && stateInfo.fullPathHash != attackHash) {
+        if (Input.GetMouseButton(0) && stateInfo.fullPathHash != attackHash) {
 			ShootRay ();
 		}
 

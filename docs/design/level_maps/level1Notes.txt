@@ -1,0 +1,16 @@
+Start in small hut outside of town
+	- Sense of urgency, no
+Small torches on the bridge should draw attention to village
+Village is first primary questing "Hub"/Zone
+	Areas of Interest:
+		Blacksmith - weapons/weapon upgrades
+		Armorer - armor/armor upgrades
+		Town Hall - quests/lore
+		Guard posts - lore
+		Fishing Hut - Food/consumables
+		Bonfire - save point / travel 
+Forest to the East is first primary combat zone
+	A path runs through the forest but the trees are pretty thick
+	Skeletons litter the ruins
+		2 types of skeleton
+		Ranger and Melee

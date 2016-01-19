@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: ad036c727da425f4681039108328dd85
+timeCreated: 1453154990
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: duskwoodtreecanopy02
+    100004: duskwoodtreecanopy02 1
+    100006: duskwoodtreecanopy02_bone_0
+    100008: duskwoodtreecanopy02_bone_1
+    100010: duskwoodtreecanopy02_bone_10
+    100012: duskwoodtreecanopy02_bone_11
+    100014: duskwoodtreecanopy02_bone_2
+    100016: duskwoodtreecanopy02_bone_3
+    100018: duskwoodtreecanopy02_bone_4
+    100020: duskwoodtreecanopy02_bone_5
+    100022: duskwoodtreecanopy02_bone_6
+    100024: duskwoodtreecanopy02_bone_7
+    100026: duskwoodtreecanopy02_bone_8
+    100028: duskwoodtreecanopy02_bone_9
+    400000: //RootNode
+    400002: duskwoodtreecanopy02
+    400004: duskwoodtreecanopy02 1
+    400006: duskwoodtreecanopy02_bone_0
+    400008: duskwoodtreecanopy02_bone_1
+    400010: duskwoodtreecanopy02_bone_10
+    400012: duskwoodtreecanopy02_bone_11
+    400014: duskwoodtreecanopy02_bone_2
+    400016: duskwoodtreecanopy02_bone_3
+    400018: duskwoodtreecanopy02_bone_4
+    400020: duskwoodtreecanopy02_bone_5
+    400022: duskwoodtreecanopy02_bone_6
+    400024: duskwoodtreecanopy02_bone_7
+    400026: duskwoodtreecanopy02_bone_8
+    400028: duskwoodtreecanopy02_bone_9
+    4300000: duskwoodtreecanopy02
+    7400000: Stand [0]
+    9500000: //RootNode
+    13700000: duskwoodtreecanopy02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
