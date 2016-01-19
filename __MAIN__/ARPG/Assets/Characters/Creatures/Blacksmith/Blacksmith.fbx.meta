@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: e782bfa487cbd34438a06ac011c5be13
+timeCreated: 1453176702
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: humlblacksmith
+    100004: humlblacksmith 1
+    100006: humlblacksmith_bone_0
+    100008: humlblacksmith_bone_1
+    100010: humlblacksmith_bone_10
+    100012: humlblacksmith_bone_11
+    100014: humlblacksmith_bone_12
+    100016: humlblacksmith_bone_13
+    100018: humlblacksmith_bone_14
+    100020: humlblacksmith_bone_15
+    100022: humlblacksmith_bone_16
+    100024: humlblacksmith_bone_17
+    100026: humlblacksmith_bone_18
+    100028: humlblacksmith_bone_19
+    100030: humlblacksmith_bone_2
+    100032: humlblacksmith_bone_20
+    100034: humlblacksmith_bone_21
+    100036: humlblacksmith_bone_22
+    100038: humlblacksmith_bone_23
+    100040: humlblacksmith_bone_24
+    100042: humlblacksmith_bone_25
+    100044: humlblacksmith_bone_26
+    100046: humlblacksmith_bone_27
+    100048: humlblacksmith_bone_28
+    100050: humlblacksmith_bone_29
+    100052: humlblacksmith_bone_3
+    100054: humlblacksmith_bone_30
+    100056: humlblacksmith_bone_31
+    100058: humlblacksmith_bone_32
+    100060: humlblacksmith_bone_33
+    100062: humlblacksmith_bone_34
+    100064: humlblacksmith_bone_35
+    100066: humlblacksmith_bone_36
+    100068: humlblacksmith_bone_37
+    100070: humlblacksmith_bone_38
+    100072: humlblacksmith_bone_39
+    100074: humlblacksmith_bone_4
+    100076: humlblacksmith_bone_40
+    100078: humlblacksmith_bone_41
+    100080: humlblacksmith_bone_42
+    100082: humlblacksmith_bone_43
+    100084: humlblacksmith_bone_44
+    100086: humlblacksmith_bone_45
+    100088: humlblacksmith_bone_46
+    100090: humlblacksmith_bone_47
+    100092: humlblacksmith_bone_48
+    100094: humlblacksmith_bone_49
+    100096: humlblacksmith_bone_5
+    100098: humlblacksmith_bone_50
+    100100: humlblacksmith_bone_51
+    100102: humlblacksmith_bone_52
+    100104: humlblacksmith_bone_53
+    100106: humlblacksmith_bone_54
+    100108: humlblacksmith_bone_55
+    100110: humlblacksmith_bone_56
+    100112: humlblacksmith_bone_57
+    100114: humlblacksmith_bone_58
+    100116: humlblacksmith_bone_59
+    100118: humlblacksmith_bone_6
+    100120: humlblacksmith_bone_60
+    100122: humlblacksmith_bone_61
+    100124: humlblacksmith_bone_62
+    100126: humlblacksmith_bone_63
+    100128: humlblacksmith_bone_64
+    100130: humlblacksmith_bone_65
+    100132: humlblacksmith_bone_7
+    100134: humlblacksmith_bone_8
+    100136: humlblacksmith_bone_9
+    400000: //RootNode
+    400002: humlblacksmith
+    400004: humlblacksmith 1
+    400006: humlblacksmith_bone_0
+    400008: humlblacksmith_bone_1
+    400010: humlblacksmith_bone_10
+    400012: humlblacksmith_bone_11
+    400014: humlblacksmith_bone_12
+    400016: humlblacksmith_bone_13
+    400018: humlblacksmith_bone_14
+    400020: humlblacksmith_bone_15
+    400022: humlblacksmith_bone_16
+    400024: humlblacksmith_bone_17
+    400026: humlblacksmith_bone_18
+    400028: humlblacksmith_bone_19
+    400030: humlblacksmith_bone_2
+    400032: humlblacksmith_bone_20
+    400034: humlblacksmith_bone_21
+    400036: humlblacksmith_bone_22
+    400038: humlblacksmith_bone_23
+    400040: humlblacksmith_bone_24
+    400042: humlblacksmith_bone_25
+    400044: humlblacksmith_bone_26
+    400046: humlblacksmith_bone_27
+    400048: humlblacksmith_bone_28
+    400050: humlblacksmith_bone_29
+    400052: humlblacksmith_bone_3
+    400054: humlblacksmith_bone_30
+    400056: humlblacksmith_bone_31
+    400058: humlblacksmith_bone_32
+    400060: humlblacksmith_bone_33
+    400062: humlblacksmith_bone_34
+    400064: humlblacksmith_bone_35
+    400066: humlblacksmith_bone_36
+    400068: humlblacksmith_bone_37
+    400070: humlblacksmith_bone_38
+    400072: humlblacksmith_bone_39
+    400074: humlblacksmith_bone_4
+    400076: humlblacksmith_bone_40
+    400078: humlblacksmith_bone_41
+    400080: humlblacksmith_bone_42
+    400082: humlblacksmith_bone_43
+    400084: humlblacksmith_bone_44
+    400086: humlblacksmith_bone_45
+    400088: humlblacksmith_bone_46
+    400090: humlblacksmith_bone_47
+    400092: humlblacksmith_bone_48
+    400094: humlblacksmith_bone_49
+    400096: humlblacksmith_bone_5
+    400098: humlblacksmith_bone_50
+    400100: humlblacksmith_bone_51
+    400102: humlblacksmith_bone_52
+    400104: humlblacksmith_bone_53
+    400106: humlblacksmith_bone_54
+    400108: humlblacksmith_bone_55
+    400110: humlblacksmith_bone_56
+    400112: humlblacksmith_bone_57
+    400114: humlblacksmith_bone_58
+    400116: humlblacksmith_bone_59
+    400118: humlblacksmith_bone_6
+    400120: humlblacksmith_bone_60
+    400122: humlblacksmith_bone_61
+    400124: humlblacksmith_bone_62
+    400126: humlblacksmith_bone_63
+    400128: humlblacksmith_bone_64
+    400130: humlblacksmith_bone_65
+    400132: humlblacksmith_bone_7
+    400134: humlblacksmith_bone_8
+    400136: humlblacksmith_bone_9
+    4300000: humlblacksmith
+    7400000: Walk [0]
+    7400002: Stand [20]
+    7400004: Stand [21]
+    7400006: NPCWelcome [22]
+    7400008: NPCWelcome [23]
+    7400010: NPCGoodbye [24]
+    9500000: //RootNode
+    13700000: humlblacksmith
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
